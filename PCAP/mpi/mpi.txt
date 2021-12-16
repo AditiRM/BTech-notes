@@ -1,0 +1,40 @@
+basic needs of parallel programming
+--start process
+--send msg
+--receive msg
+--synchronize processes
+--terminate processes
+
+MPI Basic Functions
+1) MPI_init -> Initiate a MPI computattion
+   JOB = to create, initialize, & make available all aspects of the message passing layer.
+      	typically allocates resources such as 
+	-shared memory
+	-local IPC channels
+	-network communication channels
+	
+2) MPI_Finalize() ->Terminate a computation
+	-free up resources that have been allocated to MPI
+
+3) MPI_Comm_size() -> Determie no. of processes that have been allocated
+
+4) MPI_Comm_rank() -> Determine processe's ID number
+	Syntax : MPI_Comm_rank(MPI_Comm comm/*in*/, int* result/*out*/)
+	
+	"comm" - communicator -> which is a qpaque oject that provides the environmet for message passing among processes.
+
+	WHEN MPI HAS BEEN INITIALIZED, EVERY ACTIVE PROCESS BECOME A MEMER OF A 
+	COMMUNICATOR CALLED --> "MPI_COMM_WORLD" ==> default communicator
+	
+	Processes within a communicator are "ordered".
+	"Rank of a process" -> Position in the overall order [ID number]
+	
+	For communicator with p processes : Each process has a unique rank between 0 & p-1.
+		
+
+5) MPI_Send() -> Send a msg
+6) MPI_Recv() -> Receive a msg
+
+Summary of running a parallel program
+1. User issues 
+
