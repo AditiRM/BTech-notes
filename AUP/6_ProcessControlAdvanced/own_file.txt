@@ -1,0 +1,6 @@
+Iteration: 0	Rolled: 1	Score: 1
+Iteration: 1    Rolled: 4       Score: 5
+Iteration: 0	Rolled: 1	Score: 1
+Iteration: 1	Rolled: 4	Score: 5
+Iteration: 2	Rolled: 3	Score: 8
+Iteration: 3	Rolled: 1	Score: 9

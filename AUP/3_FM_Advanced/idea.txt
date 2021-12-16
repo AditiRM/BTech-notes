@@ -1,0 +1,30 @@
+Implement the program for the command:  ./prog1 < foo.txt > bar.txt 2> bar1.txt
+
+-> Study about dup() syscall neatly
+refer - Purva Lab 3 Q1
+Page No. 96 TB
+
+Slide 21 of L10
+--------------------------------------------------------------------------------------------------------
+Create a directory with uid and gid as user1 and write permission to “others”.
+Set the setgid bit of this directory be on. 
+Create a new file in this directory by uid and gid as user2.
+Write a program which invokes functions: open, write, access and chmod on this file by user2.
+Print the uid and gid of the file and the directory. 
+Also print all the time values of this file and the parent directory after each function call.
+Write details about your observation
+
+
+Combinatio of various syscalls L11
+chown + chmod
+getcwd
+
+----------------------------------------------------------------------------------------------------------
+Write a program that prints the owner, dev, rdev and file type of files.
+By inputting a directory, the program should read the directory and print the above information for all files in the directory.
+
+Almost done figure out owner tommorow!
+
+DONE DONE DONEE
+
+I CAN DO ANYTHING!!!
