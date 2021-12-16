@@ -1,0 +1,6 @@
+K1: 10100100
+K2: 01000011
+IP Output: 00101010
+first Fk output: 11011010
+Second Fk output: 01011101
+Plain Text: 10010111

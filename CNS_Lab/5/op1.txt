@@ -1,0 +1,6 @@
+K1: 10100100
+K2: 01000011
+IP Output: 01011101
+first Fk output: 10101101
+Second Fk output: 00101010
+Cipher: 00111000

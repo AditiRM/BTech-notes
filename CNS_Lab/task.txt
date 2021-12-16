@@ -1,0 +1,13 @@
+1
+
+2 : Hill Cipher
+To design a hill cipher, we first a number to each letter of the alphabet,
+then add 3 punctuation marks(. , !) so that we have prime number (29) of coded
+letters.
+
+
+
+3
+
+4
+
